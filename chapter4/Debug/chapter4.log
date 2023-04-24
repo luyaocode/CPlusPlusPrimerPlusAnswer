@@ -1,0 +1,6 @@
+﻿  func.cpp
+D:\C++\C++PrimerPlus\chapter4\func.cpp(130,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\C++\C++PrimerPlus\chapter4\func.cpp(147,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  main.cpp
+  正在生成代码...
+  chapter4.vcxproj -> D:\C++\C++PrimerPlus\Debug\chapter4.exe

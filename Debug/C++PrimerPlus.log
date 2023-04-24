@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(C++PrimerPlus.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  func.cpp
+  main.cpp
+D:\C++\C++PrimerPlus\main.cpp(13,2): error C3861: “printTime”: 找不到标识符
+  正在生成代码...
+D:\C++\C++PrimerPlus\func.cpp(60): warning C4715: “isInteger”: 不是所有的控件路径都返回值
