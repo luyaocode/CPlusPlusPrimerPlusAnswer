@@ -1,0 +1,4 @@
+﻿  func.cpp
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter5\func.cpp(107,22): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter5\func.cpp(203,6): warning C4101: “year”: 未引用的局部变量
+  chapter5.vcxproj -> D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\Debug\chapter5.exe
