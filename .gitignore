@@ -1,5 +1,5 @@
-/.git/
-/.vs/
-/Debug/
-/x64/
+.git/
+.vs/
+Debug/
+x64/
 !.gitignore
