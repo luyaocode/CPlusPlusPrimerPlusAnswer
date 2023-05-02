@@ -1,23 +1,46 @@
 #ifndef CHAPTER4_H__
 #define CHAPTER4_H__
+struct Student
+{
+	char firstName[20];
+	char lastName[20];
+	char grade;
+	int age;
+};
 //C-style
-struct Student;
 void printInfo();
 //C++ string
-struct Student2;
+struct Student2
+{
+	string firstName = "";
+	string lastName = "";
+	char grade = 'E';
+	int age = 0;
+};
 void printInfo2();
 //use <cstring>
 void printName();
 //use <string>
 void printName2();
 
-struct CandyBar;
+struct CandyBar
+{
+	string type;
+	float weight;
+	int calorie;
+};
 void printCandyBar();
 void printCandyBars();
 void printCandyBars2();
 
 //ÅûÈø¹«Ë¾
-struct Pizza;
+struct Pizza
+{
+	char corp[100] = "";
+	float diam = 0;
+	float weight = 0;
+
+}; 
 void pizzaService();
 void pizzaService2();
 

@@ -106,6 +106,7 @@ void menuDemo()
 
 }
 
+
 void showBopInfo()
 {
 	const int MaxSize = 5;
@@ -233,6 +234,7 @@ void calTax()
 	}
 
 }
+
 
 void showDonation()
 {

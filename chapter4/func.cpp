@@ -19,21 +19,6 @@ bool isExist(char* ch, char g[]) {
 }
 
 
-struct Student
-{
-	char firstName[20];
-	char lastName[20];
-	char grade;
-	int age;
-};
-struct Student2
-{
-	string firstName = "";
-	string lastName = "";
-	char grade = 'E';
-	int age = 0;
-};
-
 void printInfo()
 {
 	Student stu;
@@ -112,12 +97,6 @@ void printName2()
 }
 
 
-struct CandyBar
-{
-	string type;
-	float weight;
-	int calorie;
-};
 void printCandyBar()
 {
 	CandyBar snack{ "Mocha Munch",2.3f,350 };
@@ -157,14 +136,6 @@ void printCandyBars2()
 	}
 
 }
-
-struct Pizza
-{
-	char corp[100] = "";
-	float diam = 0;
-	float weight = 0;
-
-};
 
 void pizzaService()
 {

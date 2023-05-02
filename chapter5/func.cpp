@@ -191,11 +191,7 @@ void bookSalesOfNYears()
 
 }
 
-struct Car
-{
-	string corp;
-	int year;
-};
+
 void carService()
 {
 	string in;

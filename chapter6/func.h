@@ -4,6 +4,7 @@
 void printKeyBoard();
 void printAverange();
 void menuDemo();
+
 struct bop
 {
 	char fullname[50];
@@ -18,7 +19,7 @@ void calTax();
 struct donor
 {
 	std::string name;
-	double amount=0;
+	double amount = 0;
 };
 void showDonation();
 

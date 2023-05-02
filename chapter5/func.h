@@ -7,7 +7,11 @@ void realTimeSum();
 void investmentValue();
 void bookSales();
 void bookSalesOfNYears();
-struct Car;
+struct Car
+{
+	string corp;
+	int year;
+};
 void carService();
 void countWords();
 void printStar();
