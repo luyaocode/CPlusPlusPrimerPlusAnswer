@@ -1,4 +1,4 @@
-#### Chapter01 预备知识
+#### Chapter01 学习笔记
 
 #### Chapter02 开始学习C++
 
