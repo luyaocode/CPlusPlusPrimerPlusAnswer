@@ -1,0 +1,16 @@
+﻿  func.cpp
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(20,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(48,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(75,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(86,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(230,21): warning C4018: “<”: 有符号/无符号不匹配
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(247,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(320,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(326,20): warning C4018: “<”: 有符号/无符号不匹配
+D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter16\func.cpp(380,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  main.cpp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 295 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  chapter16.vcxproj -> D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\Release\chapter16.exe

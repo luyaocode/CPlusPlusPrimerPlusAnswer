@@ -1,6 +1,1 @@
-﻿  func.cpp
-  main.cpp
-  正在生成代码...
-D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\chapter2\func.cpp(60): warning C4715: “isInteger”: 不是所有的控件路径都返回值
-  LINK : 没有找到 D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\Debug\chapter2.exe 或上一个增量链接没有生成它；正在执行完全链接
-  chapter2.vcxproj -> D:\codes\CPlusPlus\CPlusPlusPrimerPlusAnswer\Debug\chapter2.exe
+﻿
