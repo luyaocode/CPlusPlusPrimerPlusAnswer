@@ -1,6 +1,7 @@
 .git/
 .vs/
 Debug/
+Release/
 x64/
 CPlusPlusPrimerPlusAnswer.sln
 C++PrimerPlus.vcxproj
