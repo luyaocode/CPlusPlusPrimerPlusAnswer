@@ -299,10 +299,9 @@ void getStrs(ifstream& ifs, vector<string>& vsi)
 void Store::operator()(const string& s)
 {
 	string len_s = to_string(s.size());
-	ofs.write(len_s.data(), len_s.size() + 1);
+	ofs.write(len_s.c_str(), len_s.size()+1);
+	ofs.put('\n');
+	ofs.write(s.c_str(), s.size()+1);
+	ofs.put('\n');
 
-	ofs.write("\n", 1);
-	ofs.write(s.data(), s.size() + 1);
-
-	ofs.write("\n", 1);
 }
