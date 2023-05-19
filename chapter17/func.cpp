@@ -282,9 +282,11 @@ void getStrs(ifstream& ifs, vector<string>& vsi)
 		if (!buffer.empty())
 		{
 			len = stoi(buffer);
-			char* buf = new char[len + 2];
-			ifs.read(buf, len + 2);
-			vsi.push_back(buf);
+			char* buf = new char[len + 1];
+			ifs.read(buf, len);
+			buf[len] = '\0';
+			ifs.read(&ch, 1);
+			vsi.push_back(string(buf));
 			delete[] buf;
 			buffer.clear();
 		}
@@ -299,9 +301,9 @@ void getStrs(ifstream& ifs, vector<string>& vsi)
 void Store::operator()(const string& s)
 {
 	string len_s = to_string(s.size());
-	ofs.write(len_s.c_str(), len_s.size()+1);
+	ofs.write(len_s.data(), len_s.size());
 	ofs.put('\n');
-	ofs.write(s.c_str(), s.size()+1);
+	ofs.write(s.data(), s.size());
 	ofs.put('\n');
 
 }
